@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightweight Architectures and Compression Methods for Efficient Computer Vision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="poster-container">
+        <!-- Header Section -->
+        <header class="poster-header">
+            <h1 class="poster-title">Lightweight Architectures and Compression Methods for Efficient Computer Vision</h1>
+            <div class="authors">Rishabh Anand, Anand Nishad, Vishwraj Singh, Aditiya Pratap Singh</div>
+            <div class="affiliation">Department of Computer Science, Institute of Engineering and Technology (IET), Agra</div>
+        </header>
+
+        <!-- Three Column Layout -->
+        <main class="poster-content">
+            <!-- Column 1 -->
+            <div class="column column-1">
+                <!-- Abstract -->
+                <section class="poster-section">
+                    <h2 class="section-title">Abstract</h2>
+                    <div class="section-content">
+                        <p>The explosive growth of computer vision has been fueled primarily by increasingly sophisticated deep neural networks. However, the computational and memory requirements of these models often make them unsuitable for deployment on resource-constrained edge devices. This research presents a comprehensive analysis of lightweight architectures and compression methods that enable efficient computer vision systems without significantly compromising accuracy. We explore three main approaches: designing inherently efficient architectures, compressing existing models, and hardware-aware optimization. Our findings demonstrate that combining these techniques can reduce model size by up to 90% while maintaining competitive performance. This work provides a roadmap for building robust but realistic computer vision systems that can be large-scale-deployed for the next generation of applications.</p>
+                        <div class="visual-element">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1755049825/pplx_project_search_images/2cf273362be13ce0e34f086e6a3983aba97963ba.png" alt="Neural network architecture diagram" class="section-image">
+                            <p class="image-caption">Deep Neural Network Architecture</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Introduction -->
+                <section class="poster-section">
+                    <h2 class="section-title">1.0 Introduction: The Need for Efficient Vision Systems</h2>
+                    <div class="section-content">
+                        <p>Computer vision has emerged as a cornerstone of modern AI, powering applications from autonomous vehicles to smart city infrastructure. However, the gap between state-of-the-art model performance and practical deployment constraints continues to widen. Traditional deep learning models require substantial computational resources, making them impractical for edge deployment. This has led to two prevailing directions: architecting lightweight-by-design models and compressing classic models.</p>
+                        <div class="visual-element">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754722807/pplx_project_search_images/1071c1211a6021c02e9044a628844b3193edf5bd.png" alt="Edge computing and IoT devices" class="section-image">
+                            <p class="image-caption">Edge Computing Infrastructure</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Challenges Section -->
+                <section class="poster-section">
+                    <h2 class="section-title">2.0 Challenges in Efficient Computer Vision</h2>
+                    <div class="section-content">
+                        <h3 class="subsection-title">2.1 Hardware and Resource Constraints</h3>
+                        <p>Edge devices such as smartphones, drones, and industrial sensors have constrained computational capabilities, memory, and battery life. These limitations necessitate careful consideration of model complexity, inference speed, and energy consumption. The challenge extends beyond individual device constraints to encompass the entire deployment ecosystem, highlighting the need for co-design of hardware, software, and algorithms.</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="column column-2">
+                <!-- Data-Related Challenges -->
+                <section class="poster-section">
+                    <h3 class="subsection-title">2.2 Data-Related Challenges</h3>
+                    <div class="section-content">
+                        <ul class="challenge-list">
+                            <li>Dataset Integrity Issues</li>
+                            <li>Mislabeled Images</li>
+                            <li>Unbalanced Data</li>
+                            <li>Dataset Shortage</li>
+                        </ul>
+                        <div class="visual-element">
+                            <div class="data-chart">
+                                <div class="chart-slice slice-1">35%</div>
+                                <div class="chart-slice slice-2">25%</div>
+                                <div class="chart-slice slice-3">25%</div>
+                                <div class="chart-slice slice-4">15%</div>
+                            </div>
+                            <p class="image-caption">Data Distribution Challenges</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Privacy and Security -->
+                <section class="poster-section">
+                    <h3 class="subsection-title">2.3 Privacy, Security, and Ethical Issues</h3>
+                    <div class="section-content">
+                        <p>Extensive use of computer vision systems raises ethical and privacy concerns, including unauthorized surveillance and biometric data collection. Edge deployment introduces additional security challenges, as distributed IoT devices are often vulnerable to malware and network threats. Ensuring data privacy while maintaining system functionality requires careful architectural considerations.</p>
+                        <div class="visual-element">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1755100674/pplx_project_search_images/c75ffc1a37d453e7367521408e39f9f7ed9320ac.png" alt="Privacy and security shield icon" class="section-image small-image">
+                            <p class="image-caption">Security & Privacy Protection</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Methodologies -->
+                <section class="poster-section">
+                    <h2 class="section-title">3.0 Methodologies for Effective Model Deployment</h2>
+                    <div class="section-content">
+                        <p>Scientists have devised novel methods to shrink the size and computational expense of computer vision models while preserving accuracy. These approaches can be broadly categorized into three main strategies.</p>
+                    </div>
+                </section>
+
+                <!-- Lightweight Architectures -->
+                <section class="poster-section">
+                    <h3 class="subsection-title">3.1 Lightweight Model Architectures</h3>
+                    <div class="section-content">
+                        <ul class="method-list">
+                            <li><strong>Economical Networks:</strong> MobileNet, ShuffleNet, EfficientNet</li>
+                            <li><strong>Hybrid Models:</strong> iFormer network</li>
+                            <li><strong>New Methodologies:</strong> Transfer learning, dual-input-output model</li>
+                        </ul>
+                        <div class="visual-element">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754678346/pplx_project_search_images/f1a10d5432862447c41758a0cf4598130d10febc.png" alt="Basic neural network layers" class="section-image">
+                            <p class="image-caption">Neural Network Layers</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="column column-3">
+                <!-- Model Compression -->
+                <section class="poster-section">
+                    <h3 class="subsection-title">3.2 Model Compression Techniques</h3>
+                    <div class="section-content">
+                        <ul class="method-list">
+                            <li><strong>Pruning:</strong> Removes redundant connections</li>
+                            <li><strong>Quantization:</strong> Reduces numerical precision</li>
+                            <li><strong>Knowledge Distillation:</strong> Trains smaller 'student' model</li>
+                        </ul>
+                        <div class="compression-diagram">
+                            <div class="network-before">Original Network</div>
+                            <div class="arrow">→</div>
+                            <div class="network-after">Compressed Network</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Hardware-Aware Design -->
+                <section class="poster-section">
+                    <h3 class="subsection-title">3.3 Hardware-Aware Design</h3>
+                    <div class="section-content">
+                        <ul class="method-list">
+                            <li><strong>Hardware-Aware Neural Architecture Search (NAS)</strong></li>
+                            <li><strong>HGNAS framework</strong> for resource-limited edge devices</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Applications -->
+                <section class="poster-section">
+                    <h2 class="section-title">4.0 Principal Uses of Successful Computer Vision</h2>
+                    <div class="section-content">
+                        <h3 class="subsection-title">4.1 Smart Cities and Industrial Automation</h3>
+                        <p>Edge AI for traffic control, energy management, surveillance, and public safety systems. Industrial applications include warehouse automation, smart quality control, intelligent maintenance, and advanced inventory management.</p>
+                        <div class="visual-element">
+                            <img src="https://uppcsmagazine.com/wp-content/uploads/2025/02/DALL%C2%B7E-2025-02-27-13.51.45-A-futuristic-smart-traffic-management-system-in-a-modern-city.-The-image-features-AI-powered-traffic-lights-IoT-sensors-on-roads-connected-vehicles.webp" alt="Smart city traffic monitoring" class="section-image">
+                            <p class="image-caption">Smart City Infrastructure</p>
+                        </div>
+
+                        <h3 class="subsection-title">4.2 Smart Agriculture and Environment Monitoring</h3>
+                        <p>Non-invasive crop management, real-time plant growth monitoring, automated harvesting systems, and environmental surveillance for pollution and forest fires.</p>
+                    </div>
+                </section>
+
+                <!-- Deployment -->
+                <section class="poster-section">
+                    <h2 class="section-title">5.0 Deployment and Practicalities</h2>
+                    <div class="section-content">
+                        <h3 class="subsection-title">5.1 Computer Vision Research Datasets</h3>
+                        <p>Foundation of deep models is data. Standard datasets like ImageNet, MS COCO, MNIST provide benchmarks, but custom datasets are often needed for specialized applications.</p>
+
+                        <h3 class="subsection-title">5.2 On-Device Frameworks</h3>
+                        <p><strong>TensorFlow:</strong> Lite, static graphs<br>
+                        <strong>PyTorch:</strong> Dynamic, flexible</p>
+                    </div>
+                </section>
+
+                <!-- Conclusion -->
+                <section class="poster-section">
+                    <h2 class="section-title">6.0 Conclusion</h2>
+                    <div class="section-content">
+                        <p>The shift from cloud-centric to edge-centric vision is a strategic move toward efficient, secure, and privacy-sensitive AI deployment. By combining lightweight architectures, compression techniques, and hardware-aware design, we can achieve significant reductions in computational requirements while maintaining acceptable accuracy. This approach enables next-generation autonomous and real-time applications across diverse domains.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
